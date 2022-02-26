@@ -1,0 +1,267 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.books {
+  margin:20px 0 20px 30px;
+}
+
+
+.top-text {
+  margin:30px 0 0 40px;
+  width: 500px;
+}
+
+
+.main-text {
+  margin:30px 0 30px 70px;
+}
+
+.top-start {
+  margin:30px 0 30px 70px;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.show > td > a {
+  margin: 10px;
+}
+
+.show > td > a:hover {
+  color:white;
+  background-color:black;
+}
+
+.show-link > a:hover {
+  color:white;
+  background-color:black;
+}
+
+.s-edit > a:hover {
+  color:white;
+  background-color:black;
+}
+
+.edit-link > a:hover {
+  color:white;
+  background-color:black;
+}
+
+.e-show > a:hover  {
+  color:white;
+  background-color:black;
+}
+
+
+.title {
+  padding-left:30px;
+}
+
+.body {
+  padding-left:5px;
+}
+
+.system {
+}
+
+
+.t-title {
+  padding-left:30px;
+}
+
+ .t-body {
+   padding-left:5px;
+}
+
+.t-show {
+}
+
+.t-edit {
+}
+
+.t-destroy {
+  margin: 0;
+}
+
+.show > td > a {
+  color:black;
+}
+
+
+.new-book {
+  margin: 20px 30px;
+}
+
+.text {
+  margin-bottom:30px;
+}
+
+.new-title {
+  margin:20px 30px 0;
+}
+
+.new-body {
+  margin:20px 30px 0;
+}
+
+.new-create {
+  margin-left: 30px;
+}
+
+.s-title {
+  margin:40px 0 0 70px;
+  display: flex;
+}
+
+.s-title > p {
+  justfy-content:center;
+  margin: auto 5px;
+}
+
+
+.s-body {
+  margin:40px 0 0 70px;
+  display: flex;
+}
+
+.s-body > p {
+  justfy-content:center;
+  margin: auto 5px;
+}
+
+
+.show-link > a , p {
+  margin:0;
+  padding:0;
+}
+
+.show-link >  p {
+  margin:0 5px;
+}
+
+.show-link {
+  display:flex;
+  margin:40px 0 0 30px;
+}
+
+.show-link > a {
+  color:black;
+}
+
+.s-edit > a {
+  color:black;
+}
+
+.edit-top > h1 {
+  margin: 30px 0 0 30px;
+}
+
+.edit {
+  display:block;
+  margin-left: 30px;
+}
+
+.e-title {
+  margin-bottom:10px;
+}
+
+.edit-link {
+  display: flex;
+  margin:10px 0 0 30px;
+}
+
+.edit-link > p {
+  margin: 0 5px;
+}
+
+.edit-link > a {
+  color:black;
+}
+
+.e-show > a {
+  color:black;
+}
+
+.success {
+  color:green;
+  margin:40px 0 0 70px;
+}
+
+.text-error {
+  border: 2px solid red;
+  width: 500px;
+  height: 30px;
+  padding-left:10px;
+  background-color: red;
+  color:white;
+}
+
+.error {
+  margin: 20px 30px;
+}
+
+
+
+.error-message {
+  border: 2px solid red;
+  width: 500px;
+  height:100px;
+  background-color: lightgray;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+
+.error-message > li {
+  margin-left:120px;
+}
+
+.edit-text-error {
+  border: 2px solid red;
+  width: 500px;
+  height: 30px;
+  padding-left:10px;
+  background-color:red;
+  color:white;
+}
+
+.edit-error {
+  margin: 20px 30px;
+}
+
+
+.edit-error-message {
+  border: 2px solid red;
+  width: 500px;
+  height:100px;
+  background-color: lightgray;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+
+.edit-error-message > li {
+  margin-left:120px;
+}
+

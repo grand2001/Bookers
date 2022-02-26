@@ -1,0 +1,41 @@
+<div class="edit-top">
+<h1>Editing Book</h1>
+</div>
+
+    <div class="edit-error">
+    <% if @book.errors.any? %>
+    <div class="edit-text-error">
+    <%= @book.errors.count %>errors prohibited this book from being saved:
+    </div>
+     <ul class="edit-error-message">
+         <% @book.errors.full_messages.each do|message| %>
+         <li><%= message %></li>
+         <% end %>
+     </ul>
+     <% end %>
+    </div>
+
+<div class="edit">
+ <%= form_with model: @book do |f| %>
+ <div class="e-title">
+ <h4>Title</h4>
+ <%= f.text_field:title %>
+ </div>
+
+ <div class="e-body">
+ <h4>Body</h4>
+ <%= f.text_area:body %>
+ </div>
+
+ <div class="update">
+ <%= f.submit' Update Book ' %>
+ </div>
+
+ <% end %>
+</div>
+
+  <div class="edit-link">
+     <div class="e-show"><%= link_to "Show",book_path(@book.id) %></div>
+     <p>|</p>
+     <a class="e-back" href="/books">Back</a>
+  </div>
