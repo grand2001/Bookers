@@ -53,7 +53,7 @@ a {
   background-color:black;
 }
 
-.show-link > a:hover {
+.s-back > a:hover {
   color:white;
   background-color:black;
 }
@@ -63,7 +63,7 @@ a {
   background-color:black;
 }
 
-.edit-link > a:hover {
+.e-back > a:hover {
   color:white;
   background-color:black;
 }
@@ -165,7 +165,7 @@ a {
   margin:40px 0 0 30px;
 }
 
-.show-link > a {
+.s-back > a {
   color:black;
 }
 
@@ -195,7 +195,7 @@ a {
   margin: 0 5px;
 }
 
-.edit-link > a {
+.e-back > a {
   color:black;
 }
 
